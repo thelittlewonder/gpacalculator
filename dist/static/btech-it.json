@@ -1,0 +1,276 @@
+[
+	[
+		{
+			"courseName": "Electronics Devices and Circuits",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Introduction to Programming",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Calculus and Differential Equation",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Engineering Physics",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Circuit Analysis and Synthesis",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Introduction to Computers",
+			"theoryCredits": false,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Professional Communication",
+			"theoryCredits": false,
+			"labCredits": true,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Probability and Statistics",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Discrete Mathematics",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Computer Organization and Architecture",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Data Structures",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Digital Electronics",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Principles of Management",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Mathematics - 2",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Operating System",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Theory of Computation",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Object Oriented Methodologies",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Microprocessors",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Mathematics - 3",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Design and Analysis of Algorithms",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Principles of Programming Languages",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Database Management Systems",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Principles of Communication",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Computer Networks",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Software Engineering",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Principles of Economics",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Graphics and Visual Computing",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Artificial Intelligence",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Mini Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 5
+		}
+	],
+	[
+		{
+			"courseName": "Compiler Design",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Image and Video Processing",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Data Mining and Warehousing",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-1",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-2",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Mini Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 5
+		}
+	],
+	[
+		{
+			"courseName": "System Modeling and Simulation",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Organizational Behaviour",
+			"theoryCredits": false,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-1",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-2",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Mini Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 8
+		}
+	],
+	[
+		{
+			"courseName": "Philosophy of Science",
+			"theoryCredits": false,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Major Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 14
+		}
+	]
+]

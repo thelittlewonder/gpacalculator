@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="647px" viewBox="0 0 1440 647" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.1 (55044) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2D5AFF" offset="0%"></stop>
+            <stop stop-color="#2EBEFC" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 576.687251 1440 647 1440 0 0 0"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#2E79FE" offset="0%"></stop>
+            <stop stop-color="#215AFF" offset="100%"></stop>
+            <stop stop-color="#2A6EFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="11.1755608%" y2="69.9871223%" id="linearGradient-5">
+            <stop stop-color="#339DFD" offset="0%"></stop>
+            <stop stop-color="#215CFE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD">
+            <g id="Group-4" transform="translate(0.000000, -46.000000)">
+                <g id="undraw_data_report_bi6l" transform="translate(0.000000, 46.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M-27.0406695,251.892049 L260.447635,72.2494185 C160.640512,34.0757314 87.3964515,14.9888879 40.7154535,14.9888879 C-8.82577076,14.9888879 -71.6850092,29.504953 -147.862262,58.5370832 L-27.0406695,251.892049 Z" id="Path-2" fill="url(#linearGradient-4)" opacity="0.653515625" mask="url(#mask-3)" transform="translate(56.292687, 133.440468) rotate(122.000000) translate(-56.292687, -133.440468) "></path>
+                    <path d="M825,0 C841.758354,46.215198 877.425021,75.215198 932,87 C1050.93718,112.683036 1325,95 1437,95 L1437,0 L825,0 Z" id="Path-3" fill="url(#linearGradient-5)" opacity="0.203794643" mask="url(#mask-3)"></path>
+                    <path d="M1275,533 C1302.68763,497.427818 1358.35429,497.427818 1442,533 L1442,781 C1364.25897,779.045258 1313.92564,761.045258 1291,727 C1256.61154,675.932113 1233.46856,586.358274 1275,533 Z" id="Path-4" fill="#25AAFF" opacity="0.611607143" mask="url(#mask-3)"></path>
+                </g>
+                <rect id="Rectangle-5" fill="#FFFFFF" opacity="0.116908482" transform="translate(1173.175144, 309.175144) rotate(30.000000) translate(-1173.175144, -309.175144) " x="1125.67514" y="261.675144" width="95" height="95" rx="5"></rect>
+                <rect id="Rectangle-5-Copy-2" fill="#FFFFFF" opacity="0.116908482" transform="translate(1035.426407, 510.426407) rotate(45.000000) translate(-1035.426407, -510.426407) " x="1005.42641" y="480.426407" width="60" height="60" rx="5"></rect>
+                <path d="M742.612625,26.4090198 L742.705195,50.1243717 C742.714517,52.5127562 741.033354,54.5742466 738.691918,55.0455669 L645.584128,73.7877335 L735.112663,22.0984095 C737.504126,20.7176976 740.562078,21.5370734 741.94279,23.9285365 C742.378323,24.6829016 742.609225,25.5379606 742.612625,26.4090198 Z" id="Rectangle-5-Copy-5" fill="#FFFFFF" opacity="0.116908482" transform="translate(694.144680, 47.607718) rotate(30.000000) translate(-694.144680, -47.607718) "></path>
+                <rect id="Rectangle-5-Copy-4" fill="#FFFFFF" opacity="0.05" transform="translate(578.053824, 214.288938) rotate(45.000000) translate(-578.053824, -214.288938) " x="548.053824" y="184.288938" width="60" height="60" rx="5"></rect>
+                <rect id="Rectangle-5-Copy" fill="#FFFFFF" opacity="0.116908482" transform="translate(389.000000, 310.000000) rotate(30.000000) translate(-389.000000, -310.000000) " x="365" y="286" width="48" height="48" rx="5"></rect>
+                <rect id="Rectangle-5-Copy-3" fill="#FFFFFF" opacity="0.116908482" transform="translate(439.500000, 488.000000) rotate(30.000000) translate(-439.500000, -488.000000) " x="379.5" y="428" width="120" height="120" rx="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

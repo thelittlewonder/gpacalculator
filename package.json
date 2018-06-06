@@ -6,10 +6,11 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "node server.js",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "google-fonts-webpack-plugin": "^0.4.4",
     "node-sass": "^4.9.0",
     "reset-css": "^4.0.1",

@@ -1,0 +1,276 @@
+[
+	[
+		{
+			"courseName": "Electronics Devices and Circuits",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Introduction to Programming",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Calculus and Differential Equation",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Engineering Physics",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Circuit Analysis and Synthesis",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Introduction to Computers",
+			"theoryCredits": false,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Professional Communication",
+			"theoryCredits": false,
+			"labCredits": true,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Probability and Statistics",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Discrete Mathematics",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Computer Organization and Architecture",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Data Structures",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Digital Electronics",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Principles of Management",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Analog Electronics",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Operating System",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Electromagnetic Field and Waves",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Analog Communication",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Basic Electrical Engineering",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Discrete Time Signals and Systems",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Electronics Measurement and Instrumentation",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Microprocessor Interface and Programming",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Microwave Engineering",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Integrated Circuits Technology",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Marketing Management",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		}
+	],
+	[
+		{
+			"courseName": "Control Systems",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Antenna and Wave Propagation",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Principles of Economics",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Computer Networks",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Artificial Intelligence",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Mini Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 5
+		}
+	],
+	[
+		{
+			"courseName": "Digital Signal Processing",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Optical Communication",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Digital IC Design",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-1",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-2",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Mini Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 5
+		}
+	],
+	[
+		{
+			"courseName": "Embedded System Design",
+			"theoryCredits": true,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Wireless Communication",
+			"theoryCredits": false,
+			"labCredits": true,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-1",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-2",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Elective-3",
+			"theoryCredits": true,
+			"labCredits": false,
+			"projectCredits": 0
+		},
+		{
+			"courseName": "Mini Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 5
+		}
+	],
+	[
+		{
+			"courseName": "Major Project",
+			"theoryCredits": false,
+			"labCredits": false,
+			"projectCredits": 20
+		}
+	]
+]
