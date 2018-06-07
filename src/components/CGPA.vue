@@ -62,11 +62,10 @@ export default {
     totalScore() {
       let totalCredits = 0;
       let obtainedCredits = 0;
-      let i;
-      for (i = 1; i <= this.selectedSemester; i++) {
-        totalCredits += this.getSemCredit(i);
-        obtainedCredits += this.getSemCredit(i) * this.sgpa[i];
-      }
+      this.sgpa.forEach(function(value, index) {
+        totalCredits += this.getSemCredit(index);
+        obtainedCredits += this.getSemCredit(index) * value;
+      }.bind(this));
       let cg = obtainedCredits / totalCredits;
       return this.calc(cg);
     }
