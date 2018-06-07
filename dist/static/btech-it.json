@@ -91,7 +91,7 @@
 		{
 			"courseName": "Operating System",
 			"theoryCredits": true,
-			"labCredits": false,
+			"labCredits": true,
 			"projectCredits": 0
 		},
 		{
