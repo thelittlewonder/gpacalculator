@@ -30,7 +30,7 @@
     <hr v-if="totalScore">
     <div class="verdict" v-if="totalScore">
     <h4>{{showMessage}}</h4>
-    <h3>{{totalScore}}<span class="outta" v-if="totalScore">/10</span></h3>
+    <h3>{{animatedResult}}<span class="outta" v-if="totalScore">/10</span></h3>
     </div>
   </div>
 </template>
@@ -50,7 +50,8 @@ export default {
       theoryGrades: [],
       labGrades: [],
       projectScore: 0,
-      projectGrade: ""
+      projectGrade: "",
+      tweenedNumber: 0
     };
   },
   methods: {
@@ -91,6 +92,9 @@ export default {
     }
   },
   computed: {
+    animatedResult() {
+      return this.tweenedNumber.toFixed(2);
+    },
     course() {
       return this[this.selectedCourse];
     },
@@ -159,6 +163,9 @@ export default {
       this.labGrades = [];
       this.projectScore = 0;
       this.projectGrade = "";
+    },
+    totalScore: function(newValue) {
+      TweenLite.to(this.$data, 0.5, { tweenedNumber: newValue });
     }
   }
 };

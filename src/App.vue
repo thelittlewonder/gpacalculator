@@ -36,6 +36,14 @@ export default {
     return {
       sgActive: true
     };
+  },
+  mounted() {
+    let tweenMax = document.createElement("script");
+    tweenMax.setAttribute(
+      "src",
+      "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"
+    );
+    document.head.appendChild(tweenMax);
   }
 };
 </script>
@@ -44,12 +52,12 @@ export default {
 #app {
   max-height: 100%;
   .background {
-      position: fixed;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      max-width: 100%;
-      z-index: -999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: -999;
   }
   html {
     font-size: 100%;

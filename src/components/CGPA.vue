@@ -21,7 +21,7 @@
     </div>
     <hr v-if="totalScore">
     <div class="verdict" v-if="totalScore">
-    <h3>{{totalScore}}<span class="outta" v-if="totalScore">/10</span></h3>
+    <h3>{{animatedResult}}<span class="outta" v-if="totalScore">/10</span></h3>
     </div>
   </div>
 </template>
@@ -36,7 +36,8 @@ export default {
       activeIT: true,
       selectedCourse: "it",
       selectedSemester: 4,
-      sgpa: []
+      sgpa: [],
+      tweenedNumber: 0
     };
   },
   methods: {
@@ -53,21 +54,29 @@ export default {
       return "GPA of " + "Semester " + i;
     }
   },
-  watch: {
-    selectedSemester: function() {
-      this.sgpa = [];
-    }
-  },
   computed: {
+    animatedResult() {
+      return this.tweenedNumber.toFixed(2);
+    },
     totalScore() {
       let totalCredits = 0;
       let obtainedCredits = 0;
-      this.sgpa.forEach(function(value, index) {
-        totalCredits += this.getSemCredit(index);
-        obtainedCredits += this.getSemCredit(index) * value;
-      }.bind(this));
-      let cg = obtainedCredits / totalCredits;
-      return this.calc(cg);
+      this.sgpa.forEach(
+        function(value, index) {
+          totalCredits += this.getSemCredit(index);
+          obtainedCredits += this.getSemCredit(index) * value;
+        }.bind(this)
+      );
+      let cg = this.calc(obtainedCredits / totalCredits);
+      return cg;
+    }
+  },
+  watch: {
+    selectedSemester: function() {
+      this.sgpa = [];
+    },
+    totalScore: function(newValue) {
+      TweenLite.to(this.$data, 0.5, { tweenedNumber: newValue });
     }
   }
 };
