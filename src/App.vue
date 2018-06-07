@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="../static/background.svg">
+    <div class="background"><img src="../static/background.svg"></div>
     <div class="content">
       <h1>GPA Calculator</h1>
       <h2>Calculate your Semester GPA, Cummulative GPA and check how much you need next semester to cross that legendary GPA Mark</h2>
@@ -42,13 +42,14 @@ export default {
 
 <style lang="scss">
 #app {
-  img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    max-width: 100%;
-    z-index: -999;
+  max-height: 100%;
+  .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      max-width: 100%;
+      z-index: -999;
   }
   html {
     font-size: 100%;
@@ -62,7 +63,7 @@ export default {
 
   @media screen and (min-width: 768px) {
     .content {
-      padding: 8% 25% 0 25%;
+      padding: 6% 25% 0 25%;
     }
     .content {
       min-width: 600px;

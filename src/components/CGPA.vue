@@ -8,13 +8,13 @@
         </div>
     <div class="semester">
         <label>Semesters Completed</label>
-        <select v-model.number="selectedSemester">
+        <select v-model.number="selectedSemester" class="smaller">
         <option v-for="i in 8" :value="i" :key="i">{{i}} Done</option>
         </select>
         </div>
     </div>
     <div class="course-list">
-        <div class="course small" v-for="i in selectedSemester" :key="i">
+        <div class="courseitem small" v-for="i in selectedSemester" :key="i">
             <p>Semester {{i}}</p>
             <input type="number" v-model="sgpa[i]" placeholder="Enter your CGPA.." max="10" min="0">
         </div>
@@ -69,5 +69,8 @@ export default {
 <style scoped lang="scss">
 .small{
   justify-content: center;
+}
+.smaller{
+  background-position: 83% center!important;
 }
 </style>

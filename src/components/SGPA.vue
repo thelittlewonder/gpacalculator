@@ -13,22 +13,20 @@
         </select>
         </div>
     </div>
-    <div class="course-list">
-    <div v-for="(course,index) in course[selectedSemester]" :key="course.id" class="course">
-      <p>{{course.courseName}}</p>
-      <div class="credits">
-          <div v-if="course.theoryCredits">
-            <input type="text" placeholder="enter theory grade" v-model="theoryGrades[index]" :class="course.theoryCredits&&course.labCredits?'':'full-input'">
-          </div>
-        <div v-if="course.labCredits">
-          <input type="text" placeholder="enter lab grade" v-model="labGrades[index]" :class="course.theoryCredits&&course.labCredits?'':'full-input'">
-        </div>
-        <div v-if="course.projectCredits">
-          <input type="text" placeholder="enter project grade" v-model="projectGrade" :change="projectScore=course.projectCredits" class="full-input">
-        </div>
-      </div>
-    </div>
-    </div>
+    <table class="course-list">
+    <tr v-for="(course,index) in course[selectedSemester]" :key="course.id" class="course">
+      <td class="name">{{course.courseName}}</td>
+        <td :colspan="course.theoryCredits&&course.labCredits?'':2" v-if="course.theoryCredits">
+          <input type="text" placeholder="enter theory grade" v-model="theoryGrades[index]" >
+        </td>
+        <td :colspan="course.theoryCredits&&course.labCredits?'':2" v-if="course.labCredits">
+          <input type="text" placeholder="enter lab grade" v-model="labGrades[index]"  >
+        </td>
+        <td colspan=2 v-if="course.projectCredits">
+          <input type="text" placeholder="enter project grade" v-model="projectGrade" :change="projectScore=course.projectCredits">
+        </td>
+    </tr>
+    </table>
     <hr v-if="totalScore">
     <div class="verdict" v-if="totalScore">
     <h4>{{showMessage}}</h4>
@@ -167,20 +165,37 @@ html {
   font-size: 100%;
 }
 .branch,
-.semester,
-.credits {
+.semester {
   display: flex;
   flex-direction: row;
 }
 .nav,
-.course,
+.courseitem,
 .verdict {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .course-list {
-  padding: 1rem 0;
+  margin: 1rem 0;
+  width: 100%;
+  tr {
+    padding: 0 !important;
+
+    .name {
+      padding: 0.5rem 1.25rem;
+    }
+  }
+  td {
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 !important;
+    }
+  }
+  td:not(.name){
+    padding: 0.5rem 0.625rem;
+  }
 }
 hr {
   height: 0px;
@@ -209,10 +224,12 @@ hr {
     }
   }
 }
-.course {
+.course,
+.courseitem {
   background-color: #fff;
   padding: 0.5rem 1.5rem;
   align-items: center;
+  .name,
   p {
     font-family: "Nunito Sans";
     font-size: 1rem;
@@ -322,6 +339,9 @@ hr {
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
+      background-image: url("../../static/dropdown.svg");
+      background-position: 88% center;
+      background-repeat: no-repeat;
       &:focus {
         outline: none;
       }
