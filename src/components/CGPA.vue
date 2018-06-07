@@ -34,7 +34,7 @@ export default {
     return {
       credits,
       activeIT: true,
-      selectedCourse: 0,
+      selectedCourse: 'it',
       selectedSemester: 4,
       sgpa: []
     };
