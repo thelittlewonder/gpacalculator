@@ -83,6 +83,11 @@ export default {
         default:
           return 0;
       }
+    },
+    calc(num) {
+      let numstr = num.toString();
+      numstr = numstr.slice(0, numstr.indexOf(".") + 3);
+      return Number(numstr);
     }
   },
   computed: {
@@ -124,7 +129,7 @@ export default {
           this.theoryScore +
           this.getScore(this.projectGrade) * this.projectScore) /
         totalCredits;
-      return isNaN(cg) || cg === 0 ? null : Math.round(cg * 100) / 100;
+      return isNaN(cg) || cg === 0 ? null : this.calc(cg);
     },
     showMessage() {
       if (this.totalScore <= 10 && this.totalScore > 9) {
@@ -193,7 +198,7 @@ html {
       margin: 0 !important;
     }
   }
-  td:not(.name){
+  td:not(.name) {
     padding: 0.5rem 0.625rem;
   }
 }

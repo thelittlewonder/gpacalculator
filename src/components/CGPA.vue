@@ -19,9 +19,9 @@
             <input type="number" step=0.01 v-model="sgpa[i]" :placeholder="placeholder(i)" max="10" min="0">
         </div>
     </div>
-    <hr v-if="totalScore()">
-    <div class="verdict" v-if="totalScore()">
-    <h3>{{totalScore()}}<span class="outta" v-if="totalScore()">/10</span></h3>
+    <hr v-if="totalScore">
+    <div class="verdict" v-if="totalScore">
+    <h3>{{totalScore}}<span class="outta" v-if="totalScore">/10</span></h3>
     </div>
   </div>
 </template>
@@ -44,7 +44,21 @@ export default {
       let course = this.selectedCourse === "it" ? 0 : 1;
       return parseInt(credits["s" + sem][course]);
     },
-
+    calc(num) {
+      let numstr = num.toString();
+      numstr = numstr.slice(0, numstr.indexOf(".") + 3);
+      return Number(numstr);
+    },
+    placeholder(i) {
+      return "GPA of " + "Semester " + i;
+    }
+  },
+  watch: {
+    selectedSemester: function() {
+      this.sgpa = [];
+    }
+  },
+  computed: {
     totalScore() {
       let totalCredits = 0;
       let obtainedCredits = 0;
@@ -54,15 +68,7 @@ export default {
         obtainedCredits += this.getSemCredit(i) * this.sgpa[i];
       }
       let cg = obtainedCredits / totalCredits;
-      return isNaN(cg) ? null : Math.round(cg * 100) / 100;
-    },
-    placeholder(i) {
-      return "GPA of " + "Semester " + i;
-    }
-  },
-  watch: {
-    selectedSemester: function() {
-      this.sgpa = [];
+      return this.calc(cg);
     }
   }
 };
