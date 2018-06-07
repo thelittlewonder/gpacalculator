@@ -17,13 +17,13 @@
     <tr v-for="(course,index) in course[selectedSemester]" :key="course.id" class="course">
       <td class="name">{{course.courseName}}</td>
         <td :colspan="course.theoryCredits&&course.labCredits?'':2" v-if="course.theoryCredits">
-          <input type="text" placeholder="enter theory grade" v-model="theoryGrades[index]" >
+          <input type="text" placeholder="Theory Grade" v-model="theoryGrades[index]" >
         </td>
         <td :colspan="course.theoryCredits&&course.labCredits?'':2" v-if="course.labCredits">
-          <input type="text" placeholder="enter lab grade" v-model="labGrades[index]"  >
+          <input type="text" placeholder="Lab Grade" v-model="labGrades[index]"  >
         </td>
         <td colspan=2 v-if="course.projectCredits">
-          <input type="text" placeholder="enter project grade" v-model="projectGrade" :change="projectScore=course.projectCredits">
+          <input type="text" placeholder="Project Grade" v-model="projectGrade" :change="projectScore=course.projectCredits">
         </td>
     </tr>
     </table>

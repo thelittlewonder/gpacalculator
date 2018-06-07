@@ -16,7 +16,7 @@
     <div class="course-list">
         <div class="courseitem small" v-for="i in selectedSemester" :key="i">
             <p>Semester {{i}}</p>
-            <input type="number" step=0.01 v-model="sgpa[i]" placeholder="Enter your CGPA.." max="10" min="0">
+            <input type="number" step=0.01 v-model="sgpa[i]" :placeholder="placeholder(i)" max="10" min="0">
         </div>
     </div>
     <hr v-if="totalScore()">
@@ -34,7 +34,7 @@ export default {
     return {
       credits,
       activeIT: true,
-      selectedCourse: 'it',
+      selectedCourse: "it",
       selectedSemester: 4,
       sgpa: []
     };
@@ -55,6 +55,9 @@ export default {
       }
       let cg = obtainedCredits / totalCredits;
       return isNaN(cg) ? null : Math.round(cg * 100) / 100;
+    },
+    placeholder(i) {
+      return "GPA of " + "Semester " + i;
     }
   },
   watch: {
@@ -67,10 +70,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.small{
+.small {
   justify-content: center;
 }
-.smaller{
-  background-position: 83% center!important;
+.smaller {
+  background-position: 83% center !important;
 }
 </style>
