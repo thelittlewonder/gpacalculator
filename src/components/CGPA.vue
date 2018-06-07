@@ -16,7 +16,7 @@
     <div class="course-list">
         <div class="courseitem small" v-for="i in selectedSemester" :key="i">
             <p>Semester {{i}}</p>
-            <input type="number" v-model="sgpa[i]" placeholder="Enter your CGPA.." max="10" min="0">
+            <input type="number" step=0.01 v-model="sgpa[i]" placeholder="Enter your CGPA.." max="10" min="0">
         </div>
     </div>
     <hr v-if="totalScore()">
