@@ -3,7 +3,7 @@
 ### A small utility for IIIT Allahabad students. Allows the user to calculate Semester GPA and Cummulative GPA.
 
 ### Demo
-### http://thelittlewonder.co/gpacalculator/
+### http://littlewonder.github.io/gpacalculator/
 [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
 
