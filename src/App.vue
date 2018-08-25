@@ -58,6 +58,9 @@ export default {
     min-width: 100%;
     max-width: 100%;
     z-index: -999;
+    img{
+      width: 100%;
+    }
   }
   html {
     font-size: 100%;
