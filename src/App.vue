@@ -17,7 +17,7 @@
       </div>
     </div>
     </div>
-    <footer><a href="https://github.com/littlewonder/gpacalculator">Hacked by a lowly 8 CG human 🙈</a></footer>
+    <footer><a href="https://github.com/thelittlewonder/gpacalculator">Hacked by a lowly 8 CG human 🙈</a></footer>
   </div>
 </template>
 
