@@ -5,7 +5,7 @@
 ### http://thelittlewonder.github.io/gpacalculator/
 ![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)
 
-
+[![Run on Repl.it](https://repl.it/badge/github/thelittlewonder/gpacalculator)](https://repl.it/github/thelittlewonder/gpacalculator)
 ### Running Locally
 
 ``` bash
